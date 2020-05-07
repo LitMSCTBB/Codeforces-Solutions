@@ -14,8 +14,10 @@ public class PetyaAndStrings {
             int char2 = c2;
             if (char1<char2) {
                 result=-1;
+                break;
             } else if (char1>char2) {
                 result=1;
+                break;
             }
         }
         System.out.println(result);
